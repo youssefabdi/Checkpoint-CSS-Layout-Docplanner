@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 20px;
+    padding: 0px 200px;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    background-color: #FFFFFF;
+}
+.dpLogo{
+    width: 300px;
+}
+.myList{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+#dropDown-menu{
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 15px;
+    padding: 0px;
+    cursor: pointer;
+    width: max-content;
+}
+#dropDown-menu li{
+    color: red;
+    padding: 10px;
+    background-color: white;
+}
+#department{
+    position: relative;
+}
+#department:hover #dropDown-menu{
+    display: block;
+}
+.dcLogo{
+    display: block;
+    width: 50px;
+    margin: auto;
+}
+.title> h1{
+display: flex;
+justify-content: center;
+font-style: normal;
+font-weight: 300;
+color: #3CC5B3;
+}
+.description{
+    display: flex;
+    color: #747474;
+    justify-content: space-between;
+    margin: 40px 200px;
+    gap: 20px;
+    font-size: 20px;
+}
+#service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pays{
+    background-color: white;
+    color: black;
+}
+.patient{
+    background-color: #1AD1B9;
+    border-radius: 15px;
+    width: 260px;
+    height: 300px;
+    color: white;
+    padding: 30px;
+}
+#patient{
+    border: none;
+    background-color: #1AD1B9;
+    color: white;
+    text-decoration: underline;
+    margin-top: 200px;
+}
+.doctor{
+    background-color: #3D83DF;
+    border-radius: 15px;
+    width: 260px;
+    height: 300px;
+    color: white;
+    padding: 30px;
+}
+#doctor{
+    border: none;
+    background-color: #3D83DF;
+    color: white;
+    text-decoration: underline;
+    margin-top: 200px;
+}
+.clinic{
+    background-color: #303A46;
+    border-radius: 15px;
+    width: 260px;
+    height: 300px;
+    color: white;
+    padding: 30px;
+}
+#clinic{
+    border: none;
+    background-color: #303A46;
+    color: white;
+    text-decoration: underline;
+    margin-top: 180px;
+}#clinic1{
+    border: none;
+    background-color: #303A46;
+    color: white;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+section{
+    display: flex;
+    margin: 40px 200px;
+    align-items: center;
+    gap: 140px;
+    height: max-content;
+}
+section>h2{
+    width: 350px;
+    height: max-content;
+    color: #00B39B;
+    font-weight: 300;
+}
+.brands__logos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 5px;}
+ #section3{
+    background-color: #D5F5F5;
+    width: 100%;
+    height: 800px;
+    margin: 0px;
+    padding: 0px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end; 
+    gap: 80px; 
+ }  
+ #section3>div{
+    height: 800px; 
+ }
+ #section3 h2{
+    display: flex;
+    padding: 30px 0px 15px 150px;
+    color: #09B69F;
+    font-weight: 300;
+   font-size: 30px;
+   width:300px;
+ }
+ #section3 p{
+    color: #747474;
+    width:420px; 
+    padding: 30px 0px 30px 150px;
+ }
+ .div {
+    display: flex;
+    flex-wrap: wrap;
+    width: max-content;
+    padding: 0 0 0 0;
+    margin-top: 50px;
+ }
+ #leader,#appointments,#patien,#acDoc{
+    border: #FFFFFF;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 220px;
+    height: 300px;
+ }
+ #leader{
+    margin-bottom: 20px;
+    margin-top: 0px !important;
+ }
+ #appointments{
+    margin-left: 50px;
+    margin-right: 200px;
+ }
+ #acDoc{
+    margin-left: 50px;
+    margin-right: 200px;
+ }
+ #leader h2,#appointments h2,   #patien h2,   #acDoc h2{
+    width: 220px;
+   padding: 0px;
+   padding-top: 10px;
+    text-align: center;
+ }
+ #leader p,#appointments p,#patien p, #acDoc p{
+    width: 220px;
+    padding: 0px;
+   padding-top:  20px;
+    text-align: center;
+ }
+ .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50px;
+ }
+ .improve{
+    margin: 50px 0px ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .improve>h2{
+    color: #04B49D;
+ }
+ .improve>p{
+    margin-top: 15px;
+    width: 500px;
+    color: #747474;
+ }
+ .gridContainer{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto ;
+    /* background-color: #2196F3; */
+    padding: 0px;
+    margin: 0px 180px;
+ }
+ .seeOpennig{
+    padding: 3px;
+    margin-left:140px;
+    background-color: #1662C6;
+    border: #1662C6;
+    border-radius: 5px;
+    color: white;
+ }
+ .following{
+    margin-top: 80px;
+    text-align: center;
+ }
+ .following p{
+    color: white;
+background-color: #1662C6;
+margin: 20px 540px 60px;
+padding: 12px 8px;
+border-radius: 5px;
+ }
+footer {
+    text-align: center;
+    color: #ABABAB;
+}
+footer a{
+    text-decoration: none;
+}
